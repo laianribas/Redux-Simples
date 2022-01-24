@@ -1,6 +1,9 @@
 import './App.css'
 import Card from './components/Card'
 import Interval from './components/intervalo'
+import Media from './components/media'
+import Soma from './components/soma'
+import Sorteio from './components/sorteio'
 
 function App() {
   return (
@@ -10,15 +13,9 @@ function App() {
         <Interval />
       </div>
       <div className="linha">
-        <Card title="Card 2" green>
-          x
-        </Card>
-        <Card title="Card 3" blue>
-          y
-        </Card>
-        <Card title="Card 4" purple>
-          y
-        </Card>
+        <Media />
+        <Soma />
+        <Sorteio />
       </div>
     </div>
   )
